@@ -1,0 +1,79 @@
+﻿using NUnit.Framework;
+
+namespace TalesOfAscaria
+{
+  /// <summary>
+  /// A.Gagne
+  /// </summary>
+  public class Item_Test
+  {
+    [Test]
+    public void Test_Normal_Item()
+    {
+      NonUsable testItem = new NonUsable(0, "Test Item", 25, ItemRarity.Common, "This is a test item");
+      Assert.IsTrue(testItem.ItemID == 0);
+      Assert.IsTrue(testItem.Name == "Test Item");
+      Assert.IsTrue(testItem.Value == 25);
+      Assert.IsTrue(testItem.Rarity == ItemRarity.Common);
+      Assert.IsTrue(testItem.Description == "This is a test item");
+    }
+
+    [Test]
+    public void Test_Clone_Normal_Item()
+    {
+      NonUsable originalItem = new NonUsable(0, "Test Item", 25, ItemRarity.Common, "This is a test item");
+      NonUsable testItem = (NonUsable) originalItem.Clone();
+      Assert.IsTrue(testItem.ItemID == 0);
+      Assert.IsTrue(testItem.Name == "Test Item");
+      Assert.IsTrue(testItem.Value == 25);
+      Assert.IsTrue(testItem.Rarity == ItemRarity.Common);
+      Assert.IsTrue(testItem.Description == "This is a test item");
+      Assert.IsFalse(originalItem == testItem);
+    }
+
+    [Test]
+    public void Test_Weapon_Item()
+    {
+      Weapon testWeapon = new Weapon(0, "Test Item", 25, ItemRarity.Common, 3, 3, 1.2f, 3f);
+      Assert.IsTrue(testWeapon.ItemID == 0);
+      Assert.IsTrue(testWeapon.Name == "Test Item");
+      Assert.IsTrue(testWeapon.Value == 25);
+      Assert.IsTrue(testWeapon.Rarity == ItemRarity.Common);
+      Assert.IsTrue(testWeapon.BaseDamage == 3);
+    }
+
+    [Test]
+    public void Test_Armor_Item()
+    {
+      Armor testWeapon = new Armor(0, "Test Item", 25, ItemRarity.Common, 3, 200, 200, 20, 20);
+      Assert.IsTrue(testWeapon.ItemID == 0);
+      Assert.IsTrue(testWeapon.Name == "Test Item");
+      Assert.IsTrue(testWeapon.Value == 25);
+      Assert.IsTrue(testWeapon.Rarity == ItemRarity.Common);
+      Assert.IsTrue(testWeapon.BonusHealth == 200);
+    }
+
+    [Test]
+    public void Test_Consumable_Item()
+    {
+      Consumable testWeapon = new Consumable(0, "Test Item", 25, ItemRarity.Common, 20f, "A test consumable");
+      Assert.IsTrue(testWeapon.ItemID == 0);
+      Assert.IsTrue(testWeapon.Name == "Test Item");
+      Assert.IsTrue(testWeapon.Value == 25);
+      Assert.IsTrue(testWeapon.Rarity == ItemRarity.Common);
+      Assert.IsTrue(testWeapon.Power == 20f);
+    }
+
+    [Test]
+    public void Test_Limit_Values()
+    {
+      NonUsable testItem = new NonUsable(-4, "Test Iada2dtem", 232325, (ItemRarity) 2,
+        "This isa2da2da2d a tea2da2dst item");
+      Assert.IsTrue(testItem.ItemID == -4);
+      Assert.IsTrue(testItem.Name == "Test Iada2dtem");
+      Assert.IsTrue(testItem.Value == 232325);
+      Assert.IsTrue(testItem.Rarity == ItemRarity.Rare);
+      Assert.IsTrue(testItem.Description == "This isa2da2da2d a tea2da2dst item");
+    }
+  }
+}

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 40d6bf8743983b24a9a4affd13cf2662
+  - enabled: 1
+    path: Assets/Scenes/Util/LoadingScreen.unity
+    guid: d34726df14dac204da9073e9bfceb05d
+  - enabled: 1
+    path: Assets/Scenes/Menus/HeadsUpDisplay.unity
+    guid: d6444db73f9ca8849bb8c42da1036510
+  - enabled: 1
+    path: Assets/Scenes/Menus/Inventory.unity
+    guid: 010714cb75e610546a832cc154b9192b
+  - enabled: 1
+    path: Assets/Scenes/Fragments/WorldMap.unity
+    guid: 0d440ac1670376e42806d0da99986873
+  - enabled: 1
+    path: Assets/Scenes/Fragments/GrottePirate.unity
+    guid: c717e1e0170548749aa1760a6e50ef89
+  - enabled: 1
+    path: Assets/Scenes/Activities/MainMenuActivity.unity
+    guid: cfc5f83cbd68bc64babaa8fe6f13296e
+  - enabled: 1
+    path: Assets/Scenes/Menus/MainMenu.unity
+    guid: 1746cd5c3f83a564e8c5de0ad7dba9fa
+  - enabled: 1
+    path: Assets/Scenes/Menus/ClassSelect.unity
+    guid: 920e26a10dd91884bacf2d71069bc4bb
+  - enabled: 1
+    path: Assets/Scenes/Fragments/PyramidLabyrinth.unity
+    guid: b3b1558ff6b42c644b083fa608ab6a6b

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Event Channels
+  - QuestManager
+  - Application Dependencies
+  - Player1
+  - Player2
+  - MapTopLeft
+  - MapBottomRight
+  - NPC
+  - MOB
+  - Scene Dependencies
+  - InventoryUI
+  - CurrentQuest
+  - Objective3
+  - Objective1
+  - Objective2
+  - Player3
+  - Player4
+  - Activity Dependencies
+  - Default Respawn Point
+  - GameParameters
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Interaction
+  - NPC
+  - Mob
+  - PlayerSensor
+  - EnemyHitSensor
+  - PlayerHitSensor
+  - AbsoluteHitSensor
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - HitSensor
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ItemOnFloor
+    uniqueID: 2429361597
+    locked: 0
+  - name: Projectiles
+    uniqueID: 830752663
+    locked: 0

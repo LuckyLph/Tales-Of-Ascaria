@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d278104d73f21e7479a93f730f5c1c69, type: 3}
+  m_Name: PotionMana
+  m_EditorClassIdentifier: 
+  totalMana: 0
+  ticksPerSecond: 1
+  duration: 5

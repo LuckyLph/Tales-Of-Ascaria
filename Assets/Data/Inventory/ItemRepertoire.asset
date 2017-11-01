@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c59574b3bd36bfa488c7095f3d9015c6, type: 3}
+  m_Name: ItemRepertoire
+  m_EditorClassIdentifier: 
+  nonUsableItems: []
+  weapons:
+  - itemID: 0
+    weaponName: Sword and Shield
+    weaponValue: 9
+    bonusWisdom: 0
+    bonusStrength: 1
+    weaponDamage: 5
+    weaponAttacksPerSecond: 1.2
+    weaponSecondaryAttackCooldown: 2
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.3
+  - itemID: 1
+    weaponName: Longsword
+    weaponValue: 9
+    bonusWisdom: 0
+    bonusStrength: 2
+    weaponDamage: 7
+    weaponAttacksPerSecond: 0.9
+    weaponSecondaryAttackCooldown: 5
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.45
+  - itemID: 2
+    weaponName: Daggers
+    weaponValue: 6
+    bonusWisdom: 0
+    bonusStrength: 1
+    weaponDamage: 3
+    weaponAttacksPerSecond: 1.8
+    weaponSecondaryAttackCooldown: 3
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.15
+  - itemID: 3
+    weaponName: Rapier
+    weaponValue: 8
+    bonusWisdom: 0
+    bonusStrength: 1
+    weaponDamage: 7
+    weaponAttacksPerSecond: 1.4
+    weaponSecondaryAttackCooldown: 4
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.2
+  - itemID: 4
+    weaponName: Scepter
+    weaponValue: 8
+    bonusWisdom: 2
+    bonusStrength: 0
+    weaponDamage: 3
+    weaponAttacksPerSecond: 1.4
+    weaponSecondaryAttackCooldown: 9
+    weaponWisdomMultiplier: 0.5
+    weaponStrengthMultiplier: 0
+  - itemID: 5
+    weaponName: Staff
+    weaponValue: 9
+    bonusWisdom: 2
+    bonusStrength: 0
+    weaponDamage: 7
+    weaponAttacksPerSecond: 0.9
+    weaponSecondaryAttackCooldown: 9
+    weaponWisdomMultiplier: 0.5
+    weaponStrengthMultiplier: 0
+  - itemID: 6
+    weaponName: Runic Book
+    weaponValue: 9
+    bonusWisdom: 3
+    bonusStrength: 0
+    weaponDamage: 7
+    weaponAttacksPerSecond: 1.3
+    weaponSecondaryAttackCooldown: 12
+    weaponWisdomMultiplier: 0.5
+    weaponStrengthMultiplier: 0
+  - itemID: 7
+    weaponName: Waraxe
+    weaponValue: 11
+    bonusWisdom: 0
+    bonusStrength: 3
+    weaponDamage: 9
+    weaponAttacksPerSecond: 0.7
+    weaponSecondaryAttackCooldown: 8
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.5
+  - itemID: 8
+    weaponName: Lance
+    weaponValue: 9
+    bonusWisdom: 0
+    bonusStrength: 2
+    weaponDamage: 6
+    weaponAttacksPerSecond: 1.3
+    weaponSecondaryAttackCooldown: 2.5
+    weaponWisdomMultiplier: 0
+    weaponStrengthMultiplier: 0.2
+  - itemID: 9
+    weaponName: Gauntlets
+    weaponValue: 7
+    bonusWisdom: 1
+    bonusStrength: 1
+    weaponDamage: 4
+    weaponAttacksPerSecond: 1.6
+    weaponSecondaryAttackCooldown: 4
+    weaponWisdomMultiplier: 0.15
+    weaponStrengthMultiplier: 0.15
+  - itemID: 10
+    weaponName: Lyre
+    weaponValue: 8
+    bonusWisdom: 2
+    bonusStrength: 0
+    weaponDamage: 4
+    weaponAttacksPerSecond: 1
+    weaponSecondaryAttackCooldown: 20
+    weaponWisdomMultiplier: 0.4
+    weaponStrengthMultiplier: 0
+  - itemID: 11
+    weaponName: Shortbow
+    weaponValue: 7
+    bonusWisdom: 1
+    bonusStrength: 2
+    weaponDamage: 4
+    weaponAttacksPerSecond: 1.3
+    weaponSecondaryAttackCooldown: 10
+    weaponWisdomMultiplier: 0.2
+    weaponStrengthMultiplier: 0.3
+  - itemID: 12
+    weaponName: Flintlock
+    weaponValue: 12
+    bonusWisdom: 2
+    bonusStrength: 2
+    weaponDamage: 10
+    weaponAttacksPerSecond: 0.3
+    weaponSecondaryAttackCooldown: 16
+    weaponWisdomMultiplier: 0.3
+    weaponStrengthMultiplier: 0.15
+  - itemID: 13
+    weaponName: Throwing Knives
+    weaponValue: 8
+    bonusWisdom: 2
+    bonusStrength: 1
+    weaponDamage: 4
+    weaponAttacksPerSecond: 2
+    weaponSecondaryAttackCooldown: 9
+    weaponWisdomMultiplier: 0.2
+    weaponStrengthMultiplier: 0.1
+  - itemID: 14
+    weaponName: Zen Gloves
+    weaponValue: 10
+    bonusWisdom: 2
+    bonusStrength: 2
+    weaponDamage: 8
+    weaponAttacksPerSecond: 0.8
+    weaponSecondaryAttackCooldown: 10
+    weaponWisdomMultiplier: 0.2
+    weaponStrengthMultiplier: 0.2
+  armors:
+  - itemID: 15
+    armorName: Chestplate
+    armorValue: 14
+    bonusWisdom: 0
+    bonusStrength: 1
+    bonusHealth: 10
+    bonusMana: 0
+    bonusConstitution: 6
+    bonusSpirit: 2
+  - itemID: 16
+    armorName: Robe
+    armorValue: 12
+    bonusWisdom: 2
+    bonusStrength: 0
+    bonusHealth: 6
+    bonusMana: 4
+    bonusConstitution: 2
+    bonusSpirit: 5
+  - itemID: 17
+    armorName: Cape
+    armorValue: 9
+    bonusWisdom: 1
+    bonusStrength: 0
+    bonusHealth: 3
+    bonusMana: 1
+    bonusConstitution: 3
+    bonusSpirit: 3
+  - itemID: 18
+    armorName: Cloak
+    armorValue: 10
+    bonusWisdom: 1
+    bonusStrength: 0
+    bonusHealth: 7
+    bonusMana: 3
+    bonusConstitution: 5
+    bonusSpirit: 5
+  - itemID: 19
+    armorName: Gi
+    armorValue: 12
+    bonusWisdom: 3
+    bonusStrength: 3
+    bonusHealth: 11
+    bonusMana: 4
+    bonusConstitution: 1
+    bonusSpirit: 1
+  consumables:
+  - itemID: 20
+    consumableName: Health Potion
+    consumableValue: 2
+    description: Gives {0} health back instantly
+    power: 5
+    multiplyEffect: 1
+  - itemID: 21
+    consumableName: Potion of Rejuvenation
+    consumableValue: 4
+    description: Gives {0} health back both instantly and over time
+    power: 4
+    multiplyEffect: 1
+  - itemID: 22
+    consumableName: Mana Potion
+    consumableValue: 1
+    description: Gives {0} mana over time
+    power: 3
+    multiplyEffect: 1
+  - itemID: 23
+    consumableName: Elixir of Anger
+    consumableValue: 10
+    description: Adds {0} strength and wisdom for a considerable time
+    power: 1
+    multiplyEffect: 1
+  - itemID: 24
+    consumableName: Elixir of Preservation
+    consumableValue: 8
+    description: Gives {0} constitution and spirit for a considerable amount of time
+    power: 1
+    multiplyEffect: 1
+  - itemID: 25
+    consumableName: Cleansing Vial
+    consumableValue: 1
+    description: Removes all Crowd Control instantly
+    power: 0
+    multiplyEffect: 0
+  - itemID: 26
+    consumableName: Immunity Potion
+    consumableValue: 4
+    description: Cleanse and prevent all negative effects for {0} seconds
+    power: 0.5
+    multiplyEffect: 1
+  commonItemPrefix:
+  - Broken
+  - Crude
+  - Dull
+  - Inferior
+  - Weak
+  uncommonItemPrefix:
+  - Apprentice
+  - Rudimentary
+  - Basic
+  - Normal
+  - Ordinary
+  - Typical
+  rareItemPrefix:
+  - Good
+  - Acceptable
+  - Great
+  - Satisfying
+  - Valuable
+  - Nice
+  veryRareItemPrefix:
+  - Superior
+  - Outstanding
+  - Superb
+  - Magnificent
+  - Exquisite
+  - Exceptional
+  LegendaryItemPrefix:
+  - Legendary
+  - Fabulous
+  - Fabled
+  - Heavenly
+  - Demonic
+  - Sanguine
+  mythicItemPrefix:
+  - Mythical
+  - Mastercrafted
+  - Divine
+  - Hellborn
+  commonItemSuffix:
+  - 
+  uncommonItemSuffix:
+  - 
+  rareItemSuffix:
+  - of Brilsath
+  - of Saltport
+  - of Say'uhr
+  - of Hasnor
+  veryRareItemSuffix:
+  - the Sharp
+  - the Crisp
+  - the United
+  - the Obnoxious
+  LegendaryItemSuffix:
+  - of Hell
+  - of the Heaven
+  - of the Slayer
+  - the Perfect
+  - of the Lord
+  mythicItemSuffix:
+  - of Ascaria
+  - of the 7 Hells
+  - of the High Heavens
+  - the Ultimate
+  - of the Oath
+  - the One and Only
+  mythicItemNameOverride:
+  - Excalibur
+  - Executioner
+  - Shadowblades
+  - Scorpion
+  - Daylight
+  - Midnight
+  - Nightmare
+  - Hurricane
+  - Windreaper
+  - Pheonix
+  - Harmony
+  - Repeater
+  - Bloodlust
+  - Nova
+  - Burnfury
+  - Bastion
+  - Damnation
+  - Ancients
+  - Misery
+  - Awareness
+  - Lifesaver
+  - Purificator
+  - Magic
+  - Phial of Hatred
+  - Phial of Divination
+  - Phial of Freedom
